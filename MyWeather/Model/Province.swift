@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct ProvinceResponse: Codable{
+    let value: [Province]
+}
+
+struct Province: Identifiable, Codable {
+    let id: String
+    let name: String
+}
+
+

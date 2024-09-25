@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum TimeOfDay {
+    case morning, afternoon, evening, night
+}

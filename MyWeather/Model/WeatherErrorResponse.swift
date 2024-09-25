@@ -5,4 +5,7 @@
 //  Created by ichiro on 25/09/24.
 //
 
-import Foundation
+struct WeatherErrorResponse: Codable {
+    let cod: String
+    let message: String
+}
